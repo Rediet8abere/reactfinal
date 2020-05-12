@@ -1,7 +1,8 @@
 import React from 'react'
+import './BandName.css';
 
 function BandName(props) {
-  const { style, band_name, fans, origin, id } = props
+  const { style, band_name, fans, origin, split, id } = props
   return (
     <div>
 
@@ -10,6 +11,7 @@ function BandName(props) {
       <h2>Style: {style}</h2>
       <h2>Fans: {fans}</h2>
       <h2>Origin: {origin}</h2>
+      <h3>Split Year: {split}</h3>
 
     </div>
 

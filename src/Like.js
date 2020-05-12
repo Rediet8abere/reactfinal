@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import './Like.css';
 
 class Like extends Component {
   constructor(props) {
@@ -12,8 +13,8 @@ class Like extends Component {
     return (
       <div>
         <h1>{this.state.count}</h1>
-        <button onClick = { () => { this.setState({ count: this.state.count + 1 }) } }>Like</button>
-        <button onClick = { () => { this.setState({ count: this.state.count - 1 }) } }>DisLike</button>
+        <button className = "Like" onClick = { () => { this.setState({ count: this.state.count + 1 }) } }><span>&#128077;</span></button>
+        <button className = "DisLike" onClick = { () => { this.setState({ count: this.state.count - 1 }) } }><span>&#128078;</span></button>
       </div>
     )
   }

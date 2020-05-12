@@ -1,0 +1,11 @@
+.BandList {
+  background-color: #00005c;
+  color: #ffe277;
+  padding: 70px;
+  border: 1px solid #ff427f;
+}
+
+.band-count {
+  position: absolute;
+  left: 100px;
+}
